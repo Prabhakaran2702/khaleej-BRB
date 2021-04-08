@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar2" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/yellow_500</item>
+        <item name="colorPrimaryDark">@color/yellow_500</item>
+        <item name="colorAccent">@color/yellow_500</item>
+
+        <item name="android:fontFamily">@fonts/OpenSans-SemiBold</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/transition_shared
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/transition_shared
+        </item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/yellow_500</item>
+        <item name="colorPrimaryDark">@color/yellow_500</item>
+        <item name="colorAccent">@color/yellow_500</item>
+
+        <item name="android:fontFamily">@fonts/OpenSans-SemiBold</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/transition_shared
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/transition_shared
+        </item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar1" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/yellow_500</item>
+        <item name="colorPrimaryDark">@color/yellow_500</item>
+        <item name="colorAccent">@color/yellow_500</item>
+
+        <item name="android:fontFamily">@fonts/OpenSans-SemiBold</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/transition_shared
+        </item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/transition_shared
+        </item>
+
+    </style>
+</resources>

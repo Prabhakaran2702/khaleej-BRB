@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/imageWishListItem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="0"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWishItemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fontPath="fonts/OpenSans-SemiBold.ttf"
+                    android:textSize="14dp"
+                    android:textColor="@color/grey_100"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remove"
+                    android:textSize="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/round_outlined"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvWishPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey_100"
+                    android:textStyle="bold"
+                    android:text="$200"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="16dp"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp">
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:numStars="5"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:progressTint="@color/golden_yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.5"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey"
+                    android:text="2375"
+                    android:textSize="11dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DCDCDC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</LinearLayout>

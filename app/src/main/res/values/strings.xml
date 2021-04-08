@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Store</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Home</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_wish_list">Wish List</string>
+    <string name="title_profile">Profile</string>
+</resources>
